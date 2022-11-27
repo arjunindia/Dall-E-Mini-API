@@ -1,4 +1,4 @@
-import spinner from "./tail-spin.svg";
+let spinner = "./tail-spin.svg"; // path to the svg file
 //fetch images from dalle mini api on button click
 let proxyurl = "https://corsproxy.io/?";
 let prompt = document.querySelector(`#prompt`);
