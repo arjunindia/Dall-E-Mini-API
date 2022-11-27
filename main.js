@@ -6,9 +6,9 @@ let imageset = [];
 let imageHTML = "";
 
 document.querySelector(".btn").addEventListener("click", function (e) {
-  if (prompt.value.trim() != ``) {
-    e.preventDefault();
+  e.preventDefault();
 
+  if (prompt.value.trim() != ``) {
     imageHTML = "";
     document.querySelector("#images").classList.remove("loaded-images");
     document.querySelector(".btn").disabled = true;
